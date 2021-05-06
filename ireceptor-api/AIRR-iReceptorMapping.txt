@@ -105,6 +105,8 @@ analysis_provenance_id	Analysis Provenance ID	Analysis ID	analysis_provenance_id
 																																												
 ir_processing_arguments	ir_processing_arguments	ir_processing_arguments	ir_processing_arguments	ir_processing_arguments	object	TRUE								ir_processing_arguments	ir_processing_arguments	FALSE	FALSE	Repertoire	DataProcessing	data_processing.ir_processing_arguments	data_processing.0.ir_processing_arguments	TRUE	object	ir_processing_arguments																				
 ir_data_origin	ir_data_origin	ir_data_origin	ir_data_origin	ir_data_origin	string	FALSE								ir_data_origin	ir_data_origin	FALSE	FALSE	Repertoire	DataProcessing	ir_processing_arguments.ir_data_origin	ir_processing_arguments.0.ir_data_origin	FALSE	string	ir_data_origin																				
+command	command	command	command	command	string	FALSE								command	command	FALSE	FALSE	Repertoire	DataProcessing	ir_processing_arguments.command	ir_processing_arguments.0.command	FALSE	string	command																				
+																																												
 																																												
 ir_sequence_count	# Annotated Sequences	# Annotated Sequences		ir_sequence_count	integer	FALSE												IR_Repertoire	IR_API			FALSE	integer															ir_sequence_count						
 ir_filtered_sequence_count				ir_filtered_sequence_count	integer	FALSE												IR_Repertoire	IR_API			FALSE	integer																					
