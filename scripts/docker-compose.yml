@@ -8,6 +8,8 @@ services:
             - ../.mongodb_data:/data/db
         environment:
             MONGO_INITDB_DATABASE: ireceptor
+        ports:
+            - 27017:27017
 
     ireceptor-api:
         depends_on:
