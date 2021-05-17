@@ -37,7 +37,7 @@ export FILE_FOLDER
 # $DB_HOST and $DB_DATABASE are defined in docker-compose.yml and will be
 # substituted only when the python command is executed, INSIDE the container
 sudo -E docker-compose --file ${SCRIPT_DIR}/docker-compose.yml --project-name turnkey-service run --rm \
-                -v /home/dinis/Desktop/turnkey-service-php/data:/data \
+                -v "/home/dinis/Desktop/repos INESCTEC/turnkey-service-php/data":/data \
         		-e FILE_NAME="$FILE_NAME" \
                 -e FILE_FOLDER="$FILE_FOLDER" \
                 -e REPERTOIRE_TYPE="$REPERTOIRE_TYPE" \
