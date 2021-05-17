@@ -5,6 +5,7 @@ scripts/stop_turnkey.sh
 sudo rm -Rf .mongodb_data/*
 
 sudo docker system prune -a --force
+sudo docker volume prune --force
 
 # start turnkey
 scripts/start_turnkey.sh
